@@ -44,6 +44,5 @@ int minnum = Input("input minimal number: ");
 int maxnum = Input("input maximum number: ");
 int[,] matrix = Fillmatrix(rows, columns, minnum, maxnum);
 Printmatrix(matrix);
-int ind1 = Input("input columns index: ");
-int ind2 = Input("input rows index: ");
-CheckIndex(matrix, ind1, ind2);
+System.Console.WriteLine();
+CheckIndex(matrix, Input("input columns index: "), Input("input rows index: "));
